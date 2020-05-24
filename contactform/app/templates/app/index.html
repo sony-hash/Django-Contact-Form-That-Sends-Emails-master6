@@ -1,0 +1,202 @@
+ {%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--<link href="{%static 'css/styles.css'%}" rel="stylesheet">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dream House - live in luxury</title>
+    <link rel = "shortcut icon" href ="{%static 'images/fav.jpg' type = "image/jpg"%}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+.box {
+width:100%;
+height:450px;
+position: absolute;
+z-index:-1;
+
+}
+center{
+  font: bold 50px/50px Brush Script MT, serif;
+}
+input[type=date] {
+   font-family: "Lucida Console", Courier, monospace;text-transform: uppercase;
+    &::-webkit-datetime-edit-month-field {
+    color: red;
+  }}
+h3{
+font:bold 30px/30px Comic Sans MS, Comic Sans, cursive;
+color:;}
+h2{
+font: bold 40px/40px Brush Script MT, serif;}
+.carousel-caption {
+   position: absolute;
+   top:-10px
+}
+label
+{
+color:blue;}
+.required
+{
+color:red;}
+#center{
+font:  40px/40px Times New Roman, serif;
+}
+ </style>
+</head>
+<body>
+
+
+
+
+<div style="margin-top:10px;">
+        <div class="carousel slide  " id="my" data-ride="carousel" data-interval="1500">
+    <ol class="carousel-indicators">
+        <li data-target="#my" data-slide-to="0" class="active"></li>
+        <li data-target="#my" data-slide-to="1" ></li>
+        <li data-target="#my" data-slide-to="2" ></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{%static 'images/k3.jpg' %}" height=400px width="100%;">
+<div class="carousel-caption">
+                                <h1 style="padding-bottom:25px; padding-top:25px; "> <center  style="color:red;"> Dream House<sub><sub style="color:green">live the life of luxury</sub></sub>
+        </h1>
+                            </div>
+        </div>
+        <div class="carousel-item ">
+
+            <img src="{%static 'images/k2.png' %}" height=400px width="100%;">
+            <div class="carousel-caption">
+                                <h1 style="padding-bottom:25px; padding-top:25px; "> <center  style="color:red;"> Dream House<sub><sub style="color:green">live the life of luxury</sub></sub>
+        </h1>
+                            </div>
+        </div>
+        </div>
+        <div class="carousel-item ">
+
+            <img src="{%static 'images/k1.jpg' %}" height=400px width="100%;">
+<div class="carousel-caption">
+                                <h1 style="padding-bottom:25px; padding-top:25px; "> <center  style="color:red;"> Dream House<sub><sub style="color:green">live the life of luxury</sub></sub>
+        </h1>
+                            </div>
+        </div>
+        </div>
+    </div>
+
+
+</div>
+</div>
+<div ><center><img src="{%static 'images/heart.png' %}" height=100px width="100px;"></div>
+<div style="margin-bottom:50px;"><center id="center">Make Your Trip Memorable..!!</div>
+
+<div class="row" style="margin-top:30px;" >
+    <div class="col-md-6">
+   <img src="{%static 'images/gc.jpg' %}" height=400px width="100%;" style="margin-left:10px;">
+</div>
+    <div class="col-md-6">
+        <h3><strong style="color:brown;">GOAN</strong> holiday with family?</h3>
+        <h2>Check out our website for the best houses..<span style='font-size:30px;'>&#127984;</span></h2>
+        <p><span>DoubleTree by Hilton Goa</span> is one of the best 5-star hotels located in panaji-..offering it's visitors
+            a price of Rs.6,066/-
+        </p>
+        Address-Kadamba Plateau Panjim, Old Goa Rd, Goa Velha, Goa 403006•0832 249 1900
+        <p>
+            Enter your details below to enjoy  your holiday  at this luxurious hotel..
+        </p>
+
+    </div>
+
+</div>
+<div class="row" style="margin-top:10px;" >
+    <div class="col-md-6" style="margin-top:10px ;"><h3 >Heading to <strong style="color:green">MANALI?</strong><span style='font-size:30px;'>&#127795;</span> </h3>
+        <h2> Check out our website to enjoy the best ambience along the nature's side..</h2>
+        <p><span> Snow Valley Resorts..</span> is one of the best 5-star hotels located in Manali-..offering it's visitors
+            a price of Rs.3,606/-
+        </p>
+        Address-Log Hut Area, Manali, Himachal Pradesh 175131•087606 00001
+        <p>
+            Enter your details below to enjoy your holiday at this luxurious hotel ..
+        </p>
+
+</div>
+    <div class="col-md-6">
+
+   <img src="{%static 'images/manali.jpg' %}" height=400px width="100%;" style="margin-left:-10px;">
+
+    </div>
+
+</div>
+<div class="row" style="margin-top:10px;" >
+    <div class="col-md-6">
+   <img src="{%static 'images/anc.jpg' %}" height=400px width="100%;" style="margin-left:10px;">
+</div>
+    <div class="col-md-6">
+        <h3><strong>Andaman & Nicobar<span style='font-size:30px;'>&#127754;;</span><span style='font-size:30px;'>&#127754;;</span></strong> </h3>
+        <h2>Check out our website for the best houses..</h2>
+        <p><span>Fortune Resort Bay Island
+</span> is one of the best 4-star hotels located in -..offering it's visitors
+            a price of Rs.10,671/-
+        </p>
+        Address-Marine Hill, Port Blair, Andaman and Nicobar Islands 744101•03192 234 101        <p>
+            Enter your details below  to enjoy  your holiday  at this luxurious hotel..
+        </p>
+
+    </div>
+
+</div>
+<div class="container" style="margin-top:20px;">
+   <form method="post" action="{% url 'index' %}">
+        {%csrf_token%}
+  <label   for="checkin" required>Check-in <span class="required">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label   for="checkout">Check-Out <span class="required">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="email">Email <span class="required">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="location">Choose your Location <span class="required">*</span></label><br>
+  <input  type="date"  name="date2" required>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input  type="date" name="date1" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="email" id="email" name="email" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <select id="places" name="places">
+    <option value="Goa" name="Goa">Goa</option>
+    <option value="Manali" name="Manali">Manali</option>
+    <option value="Andaman & Nicobar" name="Andaman & Nicobar">Andaman & Nicobar</option>
+      </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Submit">
+
+
+
+<!--<textarea  style="margin-top:30px"; name="message" placeholder="Message..."></textarea>-->
+
+
+    </form>
+<script>
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("Thanks for selecting us..Enjoy your trip at "+document.getElementById("places").value+" "+"Further details have been sent to your E-mail");
+  });
+});</script>
+        <script>
+
+function myFunction() {
+if(document.getElementById("places").value==""||document.getElementById("email").value==""||document.getElementById("date2").value==""||document.getElementById("date1").value=="")
+ alert('enter all the fileds')
+ else
+ alert('Thanks for choosing Dream House...You selected  '+document.getElementById("places").value+' further details has been sent to your E-mail') ;
+}
+</script>
+
+    </div>
+<div class="jumbotron" style="margin-top:30px">
+    <center>Good Times ... &#128153;</center>
+
+</div>
+
+
+</body>
+</html>
